@@ -15,14 +15,14 @@ namespace InventoryManagementSystem.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Thanks for visiting \"MJS Store\"";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact us from the following address";
 
             return View();
         }
